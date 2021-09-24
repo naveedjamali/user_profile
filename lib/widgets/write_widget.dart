@@ -62,7 +62,7 @@ class Write extends StatelessWidget {
   }
 }
 
-/// This enum is used to differciate text types e.g heading, subheading, etc. to style text according to its need.
+/// This enum is used to differentiate text types e.g heading, subheading, etc. to style text according to its need.
 /// the scope of this enum is private, and can only be used in this file.
 enum _WriteType {
   // for heading text
@@ -70,5 +70,5 @@ enum _WriteType {
   // for subheading text
   subheading,
   // for label text
-  label
+  label,
 }
